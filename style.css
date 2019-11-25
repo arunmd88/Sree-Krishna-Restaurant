@@ -1,0 +1,172 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body {
+font: 400 15px Lato, sans-serif;
+line-height: 1.8;
+color: #818181;
+}
+h2 {
+font-size: 24px;
+text-transform: uppercase;
+color: #303030;
+font-weight: 600;
+margin-bottom: 30px;
+}
+  
+/*---Top Navigation---*/
+.navbar {
+margin-bottom: 0;
+background-color: #2d2d30;
+z-index: 9999;
+border: 0;
+font-size: 12px !important;
+line-height: 1.42857143 !important;
+letter-spacing: 4px;
+border-radius: 0;
+font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #f4511e !important;
+background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
+.logo{
+margin:-20px 0 0 0;
+}
+  
+/*---Banner---*/
+#header{
+background-image:url('img/header_bg.jpg');
+background-size: cover;
+width: 100%;
+height: 310px;
+text-align:center;
+}
+.bg_text{
+color:#fff;
+font-size:75px;
+padding:50px;
+font-weight:bold;
+background-image:radial-gradient(rgba(255,0,0,1), rgba(255,0,0,0));
+}
+.tagline_text{
+font-size:37px;
+color:#fff;
+}
+@media screen and (max-width: 600px){
+#header{
+height:255px;
+}
+.bg_text{
+font-size:35px;
+padding:100px 50px 50px 50px;
+text-shadow: 3px 2px black;
+}
+.tagline_text{
+font-size:17px;
+}
+}
+  
+.sub_heading{
+text-align:center;
+}
+
+/*---Restaurant---*/
+#content1 .col-sm-8{
+text-align:justify;
+padding:0.5% 2% 0 2%;
+}
+#content1 .col-sm-4{
+padding:0 1% 0 1%;
+}
+#content1 .col-sm-8 p{
+line-height:200%;
+}
+#content1 .col-sm-4 ul{
+list-style-type:none;
+}
+#content1 .col-sm-4 h4 {
+font-size: 19px;
+line-height: 1.375em;
+color: #303030;
+font-weight: 400;
+}
+
+/*---Menu---*/
+#content2{
+background-image:linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0.5), rgba(128,0,128,0.5), rgba(255,0,0,0.5)),url('img/menu_bg.jpg');
+color:#fff;
+}  
+.vl {
+border-left: 6px solid green;
+height: 220px;
+position: absolute;
+left: 66%;
+margin-left: -3px;
+top: 56%;
+}
+@media screen and (max-width: 600px){
+#content2{
+background-image:linear-gradient(rgba(255,255,255,1), rgba(255,0,0,0.5), rgba(128,0,128,0.5), rgba(255,0,0,0.5)),url('img/menu_bg2.jpg');
+}
+.vl{
+display:none;
+}
+#address{
+text-align:center;
+}
+}  
+.table-responsive {
+border-style:none;
+}
+.table_heading{
+text-align:center;
+}
+
+/*---Services---*/  
+#content3 .col-sm-4 h4 {
+font-size: 19px;
+line-height: 1.375em;
+color: #303030;
+font-weight: 400;
+margin-bottom: 30px;
+text-align:center;
+background-color:#ccc;
+}
+
+/*---Footer---*/  
+#footer{
+background-color:#000;
+color:#fff;
+}
+.footer_left ul li{
+list-style-type:none;
+float:left;
+padding:5%;
+}
+.footer_right ul li{
+list-style-type:none;
+float:right;
+padding:5%;
+}
+@media screen and (max-width: 600px){
+.footer_right ul{
+padding-right:40%;
+}
+}
+#footer p{
+font-size:12px;
+text-align:center;
+}
+ 
+  
+ 
